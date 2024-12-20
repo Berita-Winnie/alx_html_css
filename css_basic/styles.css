@@ -7,8 +7,8 @@ body {
 }
 
 main{ 
-    flex-direction: row;
-    flex: auto;
+ flex-direction: row;
+ flex: auto;
 }
 
 article {
@@ -21,3 +21,35 @@ aside{
  overflow-y: auto;
 }
 
+table {
+    background-color: light rgba(60, 132, 148, 0.765);
+    border: 2px  black;
+
+}
+
+.header {
+ background-color: rgb(23, 22, 22);
+ color: white;
+}
+
+.footer{
+background-color:  rgb(23, 22, 22);
+color:white;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+:root{
+    --main-bg-color: pink;
+}
+body{
+    background-color: var(--main-bg-color)
+}
+aside{
+    background-color: var(--main-bg-color)
+}
+  
+  

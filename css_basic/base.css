@@ -35,6 +35,7 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+    
 }
 body {
 	line-height: 1;
@@ -62,28 +63,29 @@ body {
 h1, h2, h3, h4, h5, h6, header {
 	font-family: 'Yeseva One', sans-serif;
 }
-article {
-}
+
 header {
 	border-bottom: 1px solid rgb(221,221,221);
 	transition: border-bottom-color 1s ease;
 }
 header a {
-	color: rgba(0, 0, 0, 0.8);
+	color: white;
+    background-color: rgb(24, 23, 23);
 }
 aside {
-	background: #FAFAFA;
+	background: #ebbdd1;
 }
 aside p {
 	border: 1px solid #bbb;
-	background: #ddd;
+	background: #ebbdd1;
 	color: black;
 }
 footer a {
-	color: rgba(0, 0, 0, 0.8);
+	color: white;
+    background-color: black;
 }
 a {
-	color: #F80002;
+	color:rgb(178, 116, 127);
 }
 
 
