@@ -1,4 +1,4 @@
-* Importing webfonts */
+/* Importing webfonts */
 /* (If you're learning CSS, you should disregard that) */
 
 @import url(https://fonts.googleapis.com/css?family=Yeseva+One);
@@ -85,7 +85,7 @@ footer a {
     background-color: black;
 }
 a {
-	color:rgb(178, 116, 127);
+	color: rgb(224, 156, 167);
 }
 
 
